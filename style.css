@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+* {
+    font-family: Homenaje, sans-serif;
+}
+
+:root {
+    --one: #355C7D;
+    --two: #6C5B7B;
+    --three: #C06C84;
+    --four: #F67280;
+    --white: #EAEAEA
+}
+
+.one, .two, .three, .four {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover {
+    color: var(--white);
+}
+
+.one {
+    color: var(--one)
+}
+
+.one:hover {
+    background-color: var(--one);
+}
+
+.two {
+    color: var(--two)
+}
+
+.two:hover p {
+    background-color: var(--two);
+}
+
+.three {
+    color: var(--three)
+}
+
+.three:hover {
+    background-color: var(--three);
+}
+
+.four {
+    color: var(--four)
+}
+
+.four:hover {
+    background-color: var(--four);
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--white);
+}
+
+h1 {
+    font-family: Aldrich, sans-serif;
+    text-align: center;
+    font-size: 64px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 0.25fr 1fr) 0.25fr;
+    align-items: center;
+    transition: 3s;
+}
+
+.topic, .divider {
+    text-align: center;
+    position: relative;
+}
+
+.topic p {
+    padding: 8px
+}
+
+.divider {
+    font-size: 24px
+}
+
+.ignore {
+    width: calc(calc(100vw - 1200px) / 2);
+    height: 100vh;
+    padding: 8px
+}
+
+.box {
+    border: solid 0;
+    width: 1200px;
+    transition: 2s;
+    position: absolute;
+    height: 0;
+    bottom: 3vh;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: -5vh;
+}
+
+img {
+    aspect-ratio: 1 / 1;
+    width: calc(calc(100vw - 1200px) / 3);
+    margin: 8px 0;
+    transition: 2s;
+}
