@@ -34,7 +34,7 @@
     color: var(--two)
 }
 
-.two:hover p {
+.two:hover {
     background-color: var(--two);
 }
 
@@ -82,7 +82,15 @@ h1 {
 }
 
 .topic p {
-    padding: 8px
+    padding: 8px;
+}
+
+.topic {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .divider {
@@ -92,8 +100,26 @@ h1 {
 .ignore {
     width: calc(calc(100vw - 1200px) / 2);
     height: 100vh;
-    padding: 8px
+    padding: 8px;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
+.images {
+    display: flex;
+    opacity: 0.0;
+    transition: 0.5s;
+    flex-direction: column;
+    animation: scroll-up 3s linear infinite;
+    height: calc(calc(calc(calc(100vw - 1200px) / 3) + 16px) * 8);
+    gap: 16px;
+}
+
+.scroll {
+    height: calc(calc(calc(calc(100vw - 1200px) / 3) + 16px) * 4);
+    overflow: hidden;
+}
+
 
 .box {
     border: solid 0;
@@ -110,6 +136,10 @@ h1 {
 img {
     aspect-ratio: 1 / 1;
     width: calc(calc(100vw - 1200px) / 3);
-    margin: 8px 0;
-    transition: 2s;
+    display: inline-block;
+}
+
+@keyframes scroll-up {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%) }
 }
