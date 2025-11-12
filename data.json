@@ -15,6 +15,13 @@
       "img-4": "Images/past-4.jpg"
     }
   },
-  "How to stay on the right path to a Good Life": {},
+  "How to stay on the right path to a Good Life": {
+    "Images": {
+      "img-1": "Images/path-1.jpg",
+      "img-2": "Images/path-2.jpg",
+      "img-3": "Images/path-3.jpg",
+      "img-4": "Images/path-4.jpg"
+    }
+  },
   "Be in charge of your own destiny": {}
 }
