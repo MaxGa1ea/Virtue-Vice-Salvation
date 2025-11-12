@@ -12,6 +12,14 @@ for (let i = 0; i < buttons.length; i++) {
         for (let j = 0; j < image.length; j++) {
             image[j].style.opacity = "1.0"
         }
+        for (let j = 0; j < buttons.length; j++) {
+            let button = document.getElementById(buttons[j])
+            button.style.color = "var(--" + buttons[j] + ")"
+            button.style.backgroundColor = "var(--white)"
+        }
+        let button = document.getElementById(buttons[i])
+        button.style.backgroundColor = "var(--" + buttons[i] + ")"
+        button.style.color = "var(--white)"
     })
 }
 
@@ -24,6 +32,11 @@ for (let i = 0; i < ignore.length; i++) {
         document.getElementById("centre").style.marginTop = "-5vh"
         for (let j = 0; j < image.length; j++) {
             image[j].style.opacity = "0.0"
+        }
+        for (let j = 0; j < buttons.length; j++) {
+            let button = document.getElementById(buttons[j])
+            button.style.color = "var(--" + buttons[j] + ")"
+            button.style.backgroundColor = "var(--white)"
         }
     })
 }

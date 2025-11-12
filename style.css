@@ -18,40 +18,20 @@
     cursor: pointer;
 }
 
-.one:hover, .two:hover, .three:hover, .four:hover {
-    color: var(--white);
-}
-
 .one {
     color: var(--one)
-}
-
-.one:hover {
-    background-color: var(--one);
 }
 
 .two {
     color: var(--two)
 }
 
-.two:hover {
-    background-color: var(--two);
-}
-
 .three {
     color: var(--three)
 }
 
-.three:hover {
-    background-color: var(--three);
-}
-
 .four {
     color: var(--four)
-}
-
-.four:hover {
-    background-color: var(--four);
 }
 
 body {
