@@ -7,7 +7,14 @@
       "img-4": "Images/good-life-4.jpg"
     }
   },
-  "Remember you are human...learn from the past and move on": {},
+  "Remember you are human...learn from the past and move on": {
+    "Images": {
+      "img-1": "Images/past-1.jpg",
+      "img-2": "Images/past-2.jpg",
+      "img-3": "Images/past-3.jpg",
+      "img-4": "Images/past-4.jpg"
+    }
+  },
   "How to stay on the right path to a Good Life": {},
   "Be in charge of your own destiny": {}
 }
