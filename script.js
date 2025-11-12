@@ -2,6 +2,8 @@ const buttons =["one", "two", "three", "four"]
 let ignore = document.getElementsByClassName("ignore")
 let image = document.getElementsByClassName("images")
 
+import data from "/data.json" with { type: "json"}
+
 for (let i = 0; i < buttons.length; i++) {
     document.getElementById(buttons[i]).addEventListener("mouseover", function() {
         document.getElementById("centre").style.marginTop = "-60vh";
@@ -12,6 +14,13 @@ for (let i = 0; i < buttons.length; i++) {
         for (let j = 0; j < image.length; j++) {
             image[j].style.opacity = "1.0"
         }
+        const dataSlice = data[document.getElementById(buttons[i]).textContent]
+        Object.entries(dataSlice["Images"]).forEach(([key, value]) => {
+            let classImages = document.getElementsByClassName(key)
+            for (let k = 0; k < classImages.length; k++) {
+                classImages[k].src = value
+            }
+        })
         for (let j = 0; j < buttons.length; j++) {
             let button = document.getElementById(buttons[j])
             button.style.color = "var(--" + buttons[j] + ")"
