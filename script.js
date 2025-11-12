@@ -10,7 +10,7 @@ for (let i = 0; i < buttons.length; i++) {
         let box = document.getElementById("box")
         box.style.borderColor = "var(--" + buttons[i] + ")"
         box.style.borderWidth = "3px"
-        box.style.height = "500px"
+        box.style.height = "50vh"
         for (let j = 0; j < image.length; j++) {
             image[j].style.opacity = "1.0"
         }
