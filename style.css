@@ -96,7 +96,7 @@ h1 {
 }
 
 .scroll {
-    height: calc(calc(calc(calc(100vw - 1200px) / 3) + 16px) * 4);
+    /*height: calc(calc(calc(calc(100vw - 1200px) / 3) + 16px) * 4);*/
     overflow: hidden;
 }
 
