@@ -91,7 +91,7 @@ h1 {
     transition: 0.5s;
     flex-direction: column;
     animation: scroll-up 3s linear infinite;
-    height: calc(calc(calc(calc(100vw - 1200px) / 3) + 16px) * 8);
+    /*height: calc(calc(calc(calc(100vw - 1200px) / 3) + 16px) * 8);*/
     gap: 16px;
 }
 

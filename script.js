@@ -49,3 +49,32 @@ for (let i = 0; i < ignore.length; i++) {
         }
     })
 }
+
+let loops = 8
+let width = 1500 - window.innerWidth;
+if (width > 0) {
+    loops = Math.floor(8 * (width / 100))
+}
+
+let imageBox = document.getElementById("images")
+let imageKeys = ["1", "2", "3", "4"]
+let k = 0
+for (let i = 0; i < loops; i++) {
+    let imageItem = document.createElement("img")
+    imageItem.classList.add("img-" + imageKeys[k])
+    k += 1
+    if (k === 4) { k = 0 }
+    imageBox.appendChild(imageItem)
+}
+
+let reverseBox = document.getElementById("reverse")
+let reverseKeys = ["4", "3", "2", "1"]
+let j = 0
+for (let i = 0; i < loops; i++) {
+    let imageItem = document.createElement("img")
+    imageItem.classList.add("img-" + reverseKeys[j])
+    j += 1
+    if (j === 4) { j = 0 }
+    reverseBox.appendChild(imageItem)
+}
+
