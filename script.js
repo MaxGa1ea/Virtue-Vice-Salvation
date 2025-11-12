@@ -2,7 +2,7 @@ const buttons =["one", "two", "three", "four"]
 let ignore = document.getElementsByClassName("ignore")
 let image = document.getElementsByClassName("images")
 
-import data from "/data.json" with { type: "json"}
+import data from "./data.json" with { type: "json"}
 
 for (let i = 0; i < buttons.length; i++) {
     document.getElementById(buttons[i]).addEventListener("mouseover", function() {
