@@ -23,5 +23,12 @@
       "img-4": "Images/path-4.jpg"
     }
   },
-  "Be in charge of your own destiny": {}
+  "Be in charge of your own destiny": {
+    "Images": {
+      "img-1": "Images/destiny-1.jpg",
+      "img-2": "Images/destiny-2.jpg",
+      "img-3": "Images/destiny-3.jpg",
+      "img-4": "Images/destiny-4.jpg"
+    }
+  }
 }
