@@ -7,7 +7,10 @@ import data from "./data.json" with { type: "json"}
 for (let i = 0; i < buttons.length; i++) {
     document.getElementById(buttons[i]).addEventListener("mouseover", function() {
         document.getElementById("centre").style.marginTop = "-60vh";
+        const dataSlice = data[document.getElementById(buttons[i]).textContent]
         let box = document.getElementById("box")
+        let text = document.getElementById("text")
+        text.innerHTML = dataSlice["Data"]
         box.style.borderColor = "var(--" + buttons[i] + ")"
         box.style.borderWidth = "3px"
         box.style.height = "50vh"
@@ -15,7 +18,6 @@ for (let i = 0; i < buttons.length; i++) {
         for (let j = 0; j < image.length; j++) {
             image[j].style.opacity = "1.0"
         }
-        const dataSlice = data[document.getElementById(buttons[i]).textContent]
         Object.entries(dataSlice["Images"]).forEach(([key, value]) => {
             let classImages = document.getElementsByClassName(key)
             for (let k = 0; k < classImages.length; k++) {
