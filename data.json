@@ -1,34 +1,34 @@
 {
-  "The purpose of a Good Life": {
-    "Images": {
-      "img-1": "Images/good-life-1.jpg",
-      "img-2": "Images/good-life-2.jpg",
-      "img-3": "Images/good-life-3.jpg",
-      "img-4": "Images/good-life-4.jpg"
+    "The purpose of a Good Life": {
+        "Images": {
+            "img-1": "Images/good-life-1.jpg",
+            "img-2": "Images/good-life-2.jpg",
+            "img-3": "Images/good-life-3.jpg",
+            "img-4": "Images/good-life-4.jpg"
+        }
+    },
+    "Remember you are human...learn from the past and move on": {
+        "Images": {
+            "img-1": "Images/past-1.jpg",
+            "img-2": "Images/past-2.jpg",
+            "img-3": "Images/past-3.jpg",
+            "img-4": "Images/past-4.jpg"
+        }
+    },
+    "How to stay on the right path to a Good Life": {
+        "Images": {
+            "img-1": "Images/path-1.jpg",
+            "img-2": "Images/path-2.jpg",
+            "img-3": "Images/path-3.jpg",
+            "img-4": "Images/path-4.jpg"
+        }
+    },
+    "Be in charge of your own destiny": {
+        "Images": {
+            "img-1": "Images/destiny-1.jpg",
+            "img-2": "Images/destiny-2.jpg",
+            "img-3": "Images/destiny-3.jpg",
+            "img-4": "Images/destiny-4.jpg"
+        }
     }
-  },
-  "Remember you are human...learn from the past and move on": {
-    "Images": {
-      "img-1": "Images/past-1.jpg",
-      "img-2": "Images/past-2.jpg",
-      "img-3": "Images/past-3.jpg",
-      "img-4": "Images/past-4.jpg"
-    }
-  },
-  "How to stay on the right path to a Good Life": {
-    "Images": {
-      "img-1": "Images/path-1.jpg",
-      "img-2": "Images/path-2.jpg",
-      "img-3": "Images/path-3.jpg",
-      "img-4": "Images/path-4.jpg"
-    }
-  },
-  "Be in charge of your own destiny": {
-    "Images": {
-      "img-1": "Images/destiny-1.jpg",
-      "img-2": "Images/destiny-2.jpg",
-      "img-3": "Images/destiny-3.jpg",
-      "img-4": "Images/destiny-4.jpg"
-    }
-  }
 }
