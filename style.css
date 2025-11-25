@@ -116,6 +116,10 @@ h1 {
     scrollbar-width: thin;
 }
 
+.box:not(table) {
+    padding-left: 24px;
+}
+
 img {
     aspect-ratio: 1 / 1;
     width: calc(calc(100vw - 1200px) / 3);
