@@ -1,4 +1,4 @@
-const buttons =["one", "two", "three", "four"]
+const buttons = ["one", "two", "three", "four"]
 let ignore = document.getElementsByClassName("ignore")
 let image = document.getElementsByClassName("images")
 
