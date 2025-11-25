@@ -38,6 +38,7 @@ for (let i = 0; i < ignore.length; i++) {
     ignore[i].addEventListener("mouseover", function() {
         let box = document.getElementById("box")
         box.style.height = "0"
+        box.innerHTML = ""
         box.style.borderWidth = "0"
         box.style.borderColor = ""
         document.getElementById("centre").style.marginTop = "-5vh"
