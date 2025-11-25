@@ -11,6 +11,7 @@ for (let i = 0; i < buttons.length; i++) {
         box.style.borderColor = "var(--" + buttons[i] + ")"
         box.style.borderWidth = "3px"
         box.style.height = "50vh"
+        box.style.scrollbarColor = "var(--" + buttons[i] + ") var(--white)"
         for (let j = 0; j < image.length; j++) {
             image[j].style.opacity = "1.0"
         }
